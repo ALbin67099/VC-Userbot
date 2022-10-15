@@ -172,7 +172,7 @@ async def play(client, m: Message):
 #🎧 Atas Permintaan: {m.from_user.mention}**
 #""",
 #                        )
-                   else:
+                   #else:
                         try:
                             await call_py.join_group_call(
                                 chat_id,
