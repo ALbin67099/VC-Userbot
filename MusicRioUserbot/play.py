@@ -270,4 +270,4 @@ async def playlist(client, m: Message):
             await m.reply(QUE, disable_web_page_preview=True)
     else:
         await m.reply("**✧ Tidak Memutar Apapun...**")
-Footer
+
