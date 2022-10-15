@@ -183,7 +183,7 @@ async def play(client, m: Message):
                             )
                             add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
                             await huehue.delete()
-                             await m.reply_to_message.delete()
+                            await m.reply_to_message.delete()
                             #await m.reply_photo(
                                # photo=f"{IMAGE_THUMBNAIL}",
                                 #caption=f"""
